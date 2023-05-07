@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+{% extends 'base.html' %}
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    {% block content %}
+        <div class="task-container">
+            <form action="create/" method="POST">
+                <input class="form-title-input" type="text" name="task_title" placeholder="Название задачи"><br>
+                <input class="form-body-input" type="text" name="task_body" placeholder="Описание"><br>
+                <input class="save-btn" type="submit" value="Save">
+            </form>
+        </div>
+    {% endblock content %}
+</body>
+</html>

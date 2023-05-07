@@ -1,0 +1,37 @@
+.task-container {
+    display: flex;
+
+}
+
+.task-list {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.task-object {
+    width: 550px;
+    color: white;
+    padding: 20px;
+    background-color: transparent;
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 19px;
+    margin-bottom: 5px;
+}
+
+.task-title-url {
+    color: white;
+}
+
+.task-object-object-expires {
+    width: 550px;
+    color: white;
+    padding: 20px;
+    background-color: transparent;
+    border: 2px solid red;
+    text-align: center;
+    border-radius: 19px;
+    margin-bottom: 5px;
+}
+

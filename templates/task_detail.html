@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+
+
+{% block content %}
+<div class="task-detail-object">
+    {% for todo in todo %}
+        <h2 class="task-detail-title">{{ todo.task_title }}</h2>
+        <p class="task-detail-body">{{ todo.task_body }}</p>
+        <p class="task-detail-current-date">Редактирование : <a href="delete/{{todo.id}}" class="delete-url"><img src="/static/delete-icon.svg" alt=""></a> <a class="edit-url" href="update/{{todo.id}}"><img src="/static/edit-icon.svg" alt=""></a></p>
+    {% endfor %}
+</div>
+
+{% endblock content %}

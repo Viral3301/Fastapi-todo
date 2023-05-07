@@ -1,0 +1,79 @@
+.task-detail-object {
+    width: 500px;
+    color: white;
+    padding: 20px;
+    background-color: transparent;
+    border: 2px solid black;
+    text-align: center;
+    padding: 20px 10px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.task-detail-title {
+    margin-bottom: 30px;
+    color: black;
+    font-size: 28px;
+}
+
+.task-detail-body {
+    margin-bottom: 25px;
+}
+
+.task-detail-current-date {
+    display: flex;
+    font-size: 14px;
+    text-align: left;
+    margin-left: 25px;
+    color: black;
+    width: 455px;
+    margin-bottom: 10px;
+}
+
+.edit-url {
+    margin-left: 15px;
+}
+
+.delete-url {
+    margin-left: 15px;
+}
+
+.delete-url img {
+    height: 19px;
+}
+
+.task-detail-deadline {
+    text-align: left;
+    color: black;
+    font-size: 14px;
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
+
+.task-detail-days-until-deadline {
+    text-align: left;
+    color: black;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.task-detail-days-until-deadline-failed {
+    text-align: left;
+    color: red;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+
+.task-detail-deadline-object {
+    display: flex;
+}
+
+.task-detail-deadline-unset {
+    text-align: left;
+    color: black;
+    font-size: 14px;
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
